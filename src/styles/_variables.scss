@@ -1,0 +1,19 @@
+//spacing
+//-----------
+$indent_base: 16px;
+$indent_base: $indent_base * .5; //8px
+$indent_base: $indent_base * 1.5; //24px
+$indent_base: $indent_base * 2; //32px
+$indent_base: $indent_base * 4; //64px
+
+//Fonts
+//----------
+$font-family: 'Courier New', Courier, monospace;
+$font-size__base: 1rem;
+
+$font-size__s: $font-size__base * .8;
+$font-size__m: $font-size__base * 1.6;
+$font-size__l: $font-size__base * 2;
+$font-size__xl: $font-size__base * 4; 
+$font-size__xxl: $font-size__base * 6; 
+

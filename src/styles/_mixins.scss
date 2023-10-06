@@ -1,0 +1,23 @@
+@mixin flexbox {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+@mixin button-style {
+    background-color: white;
+    border-radius: 15px;
+    border-color: #1A659E;
+    cursor: pointer;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 800;
+    padding: 15px;
+}
+
+@mixin img {
+    width: 300px; 
+    height: auto;  
+    border-radius: 25px;
+    display: block;
+    margin: 0 auto;
+}

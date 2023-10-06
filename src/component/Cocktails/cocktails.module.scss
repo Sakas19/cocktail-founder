@@ -1,0 +1,33 @@
+@import "../../styles/mixins";
+@import "../../styles/variables";
+
+body {
+  font-family: $font-family;
+  font-size: $font-size__base;
+  background-color: aliceblue;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  justify-content: center; 
+  height: 100vh; 
+}
+
+.button {
+  @include button-style;
+}
+
+.image {
+  @include img;
+}
+
+.drink {
+  display: flex;
+  justify-content: center;
+}
+
+
+
+
+  
