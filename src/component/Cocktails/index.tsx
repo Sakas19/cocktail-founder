@@ -64,6 +64,7 @@ const Cocktail: React.FC = () => {
 
   return (
     <div className={styles.container}>
+      <h1>Cocktail Founder</h1>
       {showModal && <Modal message="🍹 Cheers to good times, but remember to sip wisely and giggle responsibly!" onClose={handleCloseModal} />}
         <ul>
             {extractIngredients(cocktail).map((ingredient, index) => (
