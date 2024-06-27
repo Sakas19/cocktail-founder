@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import Modal from '../Modal/index';
 import styles from './cocktails.module.scss';
+import Loader from '../Loader';
 
 interface cocktailsData {
   strDrink: string;
@@ -60,7 +61,7 @@ const Cocktail: React.FC = () => {
     return ingredients;
   };
 
-  if (!cocktail) return <div>Loading...</div>;
+  if (!cocktail) return <div><Loader /></div>;
 
   return (
     <div className={styles.container}>
