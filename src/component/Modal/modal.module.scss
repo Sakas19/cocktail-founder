@@ -11,17 +11,16 @@
     display: flex;
     justify-content: center;
     align-items: center;
-  }
+}
   
-  .modal {
+.modal {
     background: rgba(255, 255, 255, 0.8);
     padding: 20px;
     border-radius: 10px;
     width: 300px;
     text-align: center;
-  }
+}
 
-  .button {
+.button {
     @include button-style;
-  }
-  
+}
